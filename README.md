@@ -10,16 +10,20 @@
 ## 功能
 
 - 开始：运行即出现初始界面，场景提示：按Space开始、L选择读取文件（只有按下Space之前或者在战斗结束界面按下才有响应）、Esc退出游戏（游戏全程有效）
-![](https://github.com/DarkMagicXYZ/Java-2018f-pics/blob/master/1.png)
-
+  ![](https://github.com/DarkMagicXYZ/Java-2018f-pics/blob/master/1.png)
 - 1.开始战斗：双方按照既定的阵型排列保持1.5s后，开始自动随机移动和攻击（回合制），当敌对阵营生物在以自己为中心的3*3空间里，即进行攻击，双方必有一个死掉（测试时采用双方各0.5的胜率），死后在战场上留下一个坟墓，且不影响其他生物的移动（即无视碰撞体积），为了使人眼适应界面的刷新，将刷新频率设置为0.7s/frame。当战场上只有一个阵营的生物时，结束战斗，弹出结束的画面，并自动将本局的战斗过程以xml的格式保存在Record\record.xml中。
-![](https://github.com/DarkMagicXYZ/Java-2018f-pics/blob/master/2.png)
-
+  ![](https://github.com/DarkMagicXYZ/Java-2018f-pics/blob/master/2.png)
 - 2.战斗结束：此时可以按L读取Record下的战斗记录，既包括刚刚的战斗，也有几个之前我保存的经典战斗可以回放
-![](https://github.com/DarkMagicXYZ/Java-2018f-pics/blob/master/3.png)
-
+  ![](https://github.com/DarkMagicXYZ/Java-2018f-pics/blob/master/3.png)
 - 3.回放阶段：在游戏开始前或者战斗结束（包括回放结束）阶段按下L键，显示文件对话框，在Record文件下选取一个文件双击，会自动播放这次记录的内容至结束，循环至2
-![](https://github.com/DarkMagicXYZ/Java-2018f-pics/blob/master/4.png)
+  ![](https://github.com/DarkMagicXYZ/Java-2018f-pics/blob/master/4.png)
+  
+  ### 经典战斗（保存在record文件夹中）
+  
+  - 葫芦兄弟轻松取胜
+  - 蛇精双拳难敌六手
+  - 妖精大获全胜
+  - 爷爷大战群雄
 
 ## 参数设置
 
