@@ -15,8 +15,8 @@ import formation.*;
 
 public class Battlefield {
 	private Unit[][] units;
-	private Image background = new Image("file:.\\src\\main\\resources\\Battlefield.png");
-	private Image victory = new Image("file:.\\src\\main\\resources\\victory.png");
+	private Image background = new Image("Battlefield.png");
+	private Image victory = new Image("victory.png");
 	//private Image death = new Image("file:death.png");
 	private ArrayList<Thread> threads = new ArrayList<>();
 	private ArrayList<Creature> goodguys = new ArrayList<>();
@@ -150,7 +150,7 @@ public class Battlefield {
 		can.gc.drawImage(background, 0, 0);
 		FileChooser fileChooser = new FileChooser();
 		String path = System.getProperty("user.dir");
-		fileChooser.setInitialDirectory(new File(path + File.separator + "record"));
+		fileChooser.setInitialDirectory(new File(path));
 		fileChooser.setTitle("Choose one to replay");
         File file = fileChooser.showOpenDialog(stage);
 		ArrayList<String> temp = ioc.read(file);

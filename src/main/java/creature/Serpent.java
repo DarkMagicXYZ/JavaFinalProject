@@ -7,7 +7,7 @@ public class Serpent extends Creature {
 	public Serpent(Battlefield bf){
 		name = "Serpent";
 		field = bf;
-		image = new Image("file:.\\src\\main\\resources\\Serpent.png");
+		image = new Image("Serpent.png");
 		imageview = new ImageView();
 		imageview.setImage(image);
 	}

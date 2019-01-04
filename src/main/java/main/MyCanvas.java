@@ -8,7 +8,7 @@ import javafx.scene.image.Image;
 
 public class MyCanvas extends Canvas {
 	public GraphicsContext gc;
-	private Image background = new Image("file:.\\src\\main\\resources\\Battlefield.png");
+	private Image background = new Image("Battlefield.png");
 	public MyCanvas(){
 		super(900, 700);
 		gc = getGraphicsContext2D();

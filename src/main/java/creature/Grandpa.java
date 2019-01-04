@@ -8,7 +8,7 @@ public class Grandpa extends Creature {
 	public Grandpa(Battlefield bf){
 		name = "Grandpa";
 		field = bf;
-		image = new Image("file:.\\src\\main\\resources\\Grandpa.png");
+		image = new Image("Grandpa.png");
 		imageview = new ImageView();
 		imageview.setImage(image);
 				

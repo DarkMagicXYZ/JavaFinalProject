@@ -14,37 +14,37 @@ public class CalabashBrother extends Creature {
 		case 0:
 			name = "老大";
 			color = "红娃";
-			image = new Image("file:.\\src\\main\\resources\\大娃.png");
+			image = new Image("大娃.png");
 			break;
 		case 1:
 			name = "老二";
 			color = "橙娃";
-			image = new Image("file:.\\src\\main\\resources\\二娃.png");
+			image = new Image("二娃.png");
 			break;
 		case 2:
 			name = "老三";
 			color = "黄娃";
-			image = new Image("file:.\\src\\main\\resources\\三娃.png");
+			image = new Image("三娃.png");
 			break;
 		case 3:
 			name = "老四";
 			color = "绿娃";
-			image = new Image("file:.\\src\\main\\resources\\四娃.png");
+			image = new Image("四娃.png");
 			break;
 		case 4:
 			name = "老五";
 			color = "青娃";
-			image = new Image("file:.\\src\\main\\resources\\五娃.png");
+			image = new Image("五娃.png");
 			break;
 		case 5:
 			name = "老六";
 			color = "蓝娃";
-			image = new Image("file:.\\src\\main\\resources\\六娃.png");
+			image = new Image("六娃.png");
 			break;
 		case 6:
 			name = "老七";
 			color = "紫娃";
-			image = new Image("file:.\\src\\main\\resources\\七娃.png");
+			image = new Image("七娃.png");
 			break;
 		default:
 			throw new IndexOutOfBoundsException("You are trying to build calabashbrother which is not existing");

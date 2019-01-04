@@ -7,7 +7,7 @@ public class Minion extends Creature {
 	public Minion(Battlefield bf){
 		name = "Minion";
 		field = bf;
-		image = new Image("file:.\\src\\main\\resources\\Minion.png");
+		image = new Image("Minion.png");
 		imageview = new ImageView();
 		imageview.setImage(image);
 	}
